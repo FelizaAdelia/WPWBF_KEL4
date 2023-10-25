@@ -13,6 +13,51 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/index', function () {
+    return view('home');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/products', function () {
+    return view('products');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/single', function () {
+    return view('single');
+});
+
+Route::get('/single-product', function () {
+    return view('single');
+});
+
+Route::get('/kids', function () {
+    return view('pages.kids');
+});
+
+Route::get('/mens', function () {
+    return view('pages.fiksi');
+});
+
+Route::get('/womens', function () {
+    return view('pages.womens');
+});
+
