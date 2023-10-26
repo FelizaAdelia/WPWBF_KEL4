@@ -17,6 +17,27 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::get('/', 'HomeController@home');
+Route::get('/about', 'AboutController@index');
+Route::get('/contact', 'ContactController@index');
+Route::get('/products', 'ProductController@index');
+
+// Route untuk menampilkan form registrasi
+Route::get('/registrasi', function () {
+    return view('registrasi');
+})->name('registrasi.form');
+
+// Route untuk menangani proses registrasi (Anda harus menambahkan logika penyimpanan data pengguna di sini)
+ Route::post('/registrasi', 'Auth\RegisterController@register')->name('register');
+
+// Route untuk menampilkan form login
+Route::get('/login', function () {
+    return view('login');
+})->name('login.form');
+
+// Route untuk menangani proses login (Anda harus menambahkan logika autentikasi di sini)
+ Route::post('/login', 'Auth\LoginController@login')->name('login');
+
 Route::get('/', function () {
     return view('home');
 });
@@ -61,3 +82,10 @@ Route::get('/womens', function () {
     return view('pages.womens');
 });
 
+Route::get('/registrasi', function () {
+    return view('registrasi');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});

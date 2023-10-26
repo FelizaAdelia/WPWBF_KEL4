@@ -52,7 +52,7 @@ https://templatemo.com/tm-571-hexashop
                     <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
                             <a href="home" class="logo">
-                                <img src="assets/images/Frame-9.png" />
+                                <img src="{{ asset('logo.jpg') }}" alt="Logo" style="width: 200px; height: 60px; margin-bottom: 0px;" />
                             </a>
                             <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -88,7 +88,7 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        <h2>Contact Us</h2>
+                        <h2>Kontak Kami</h2>
                         <span>Awesome, clean &amp; creative HTML5 Template</span>
                     </div>
                 </div>

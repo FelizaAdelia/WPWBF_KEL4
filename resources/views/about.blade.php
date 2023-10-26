@@ -51,7 +51,7 @@ https://templatemo.com/tm-571-hexashop
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
                             <a href="home" class="logo">
-                                <img src="assets/images/Frame-9.png" />
+                                <img src="{{ asset('logo.jpg') }}" alt="Logo" style="width: 200px; height: 60px; margin-bottom: 0px;" />
                             </a>
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
@@ -87,8 +87,8 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        <h2>About Our Company</h2>
-                        <span>Awesome, clean &amp; creative HTML5 Template</span>
+                        <h2>Tentang EBookJunction</h2>
+                        <span>Tempat di mana pengetahuan, imajinasi, dan cerita bertemu dalam bentuk digital.</span>
                     </div>
                 </div>
             </div>
@@ -107,12 +107,12 @@ https://templatemo.com/tm-571-hexashop
                 </div>
                 <div class="col-lg-6">
                     <div class="right-content">
-                        <h4>About Us &amp; Our Skills</h4>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
+                        <h4>Tentang Kami</h4>
+                        <span></span>
                         <div class="quote">
-                            <i class="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod kon tempor incididunt ut labore.</p>
+                            <i class="fa fa-quote-left"></i><p></p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        <p>EbookJunction adalah rumah bagi ribuan ebook berkualitas dari berbagai genre, membawa Anda ke dalam dunia yang tak terbatas dari kata-kata. Di EbookJunction, kami memahami bahwa setiap pembaca memiliki preferensi uniknya sendiri. Oleh karena itu, kami menawarkan berbagai kategori ebook yang memenuhi segala minat. Dari kisah romantis yang memilukan hingga pengetahuan mendalam tentang dunia ilmiah, kami memiliki sesuatu untuk setiap orang.</p>
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -132,7 +132,7 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Amazing Team</h2>
+                        <h2>Tim Kami</h2>
                         <span>Details to details is what makes Hexashop different from the other themes.</span>
                     </div>
                 </div>
@@ -210,28 +210,28 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Services</h2>
+                        <h2>Pelayanan Kami</h2>
                         <span>Details to details is what makes Hexashop different from the other themes.</span>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="service-item">
-                        <h4>Synther Vaporware</h4>
-                        <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                        <h4>Koleksi Diversifikasi</h4>
+                        <p>Apakah Anda mencari petualangan fantasi, panduan bisnis praktis, atau pengetahuan mendalam tentang ilmu pengetahuan, kami memiliki apa yang Anda butuhkan.</p>
                         <img src="assets/images/service-01.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="service-item">
-                        <h4>Locavore Squidward</h4>
-                        <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                        <h4>Pembayaran Aman dan Mudah</h4>
+                        <p>EbookJunction menawarkan opsi pembayaran yang aman dan nyaman, memungkinkan Anda untuk membeli ebook favorit Anda dengan cara yang paling sesuai dengan Anda.</p>
                         <img src="assets/images/service-02.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="service-item">
-                        <h4>Health Gothfam</h4>
-                        <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                        <h4>Pembaruan Berkala</h4>
+                        <p>Koleksi kami terus berkembang dengan penambahan ebook baru secara berkala. Jangan lewatkan peluang untuk menemukan karya-karya terbaru dari penulis terkenal dan bakat baru di dunia literatur digital.</p>
                         <img src="assets/images/service-03.jpg" alt="">
                     </div>
                 </div>

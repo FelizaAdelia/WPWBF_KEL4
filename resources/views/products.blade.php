@@ -52,7 +52,7 @@ https://templatemo.com/tm-571-hexashop
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="home" class="logo">
-                            <img src="assets/images/Frame-9.png" alt="">
+                            <img src="{{ asset('logo.jpg') }}" alt="Logo" style="width: 200px; height: 60px; margin-bottom: 0px;">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
