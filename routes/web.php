@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +21,22 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@home');
 Route::get('/about', 'AboutController@index');
 Route::get('/contact', 'ContactController@index');
-Route::get('/products', 'ProductController@index');
+
+
+// Route::get('/products', 'ProductController@index');
+// Route::get('/products/create', 'ProductController@create'); // Menampilkan formulir tambah produk
+// Route::post('/products', 'ProductController@store'); // Menyimpan data produk baru
+
+Route::get('/products', [ProductController::class, 'index']);
+Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
+Route::post('/products', [ProductController::class, 'store']);
+Route::get('/products/data', [ProductController::class, 'indexData'])->name('products.data');
+Route::post('/products/store', [ProductController::class, 'store'])->name('products.store');
+Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('products.edit');
+Route::put('/products/{id}', [ProductController::class, 'update'])->name('products.update');
+
+
+
 
 // Route untuk menampilkan form registrasi
 Route::get('/registrasi', function () {
