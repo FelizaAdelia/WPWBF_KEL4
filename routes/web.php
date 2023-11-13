@@ -57,6 +57,10 @@ Route::get('/mens', function () {
     return view('pages.fiksi');
 });
 
+Route::get('/fiksi', function () {
+    return view('pages.fiksi');
+});
+
 Route::get('/womens', function () {
     return view('pages.womens');
 });

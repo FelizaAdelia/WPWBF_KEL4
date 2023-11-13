@@ -64,6 +64,7 @@ https://templatemo.com/tm-571-hexashop
                                         <li><a href="womens">Non Fiksi</a></li>
                                         <li><a href="mens">Sains dan Teknologi</a></li>
                                         <li><a href="womens">Kesehatan</a></li>
+                                        <li><a href="womens">Pedidikan</a></li>
                                         <li><a href="kids">Bisnis dan Keuangan</a></li></ul>
                                 </li>
                                 <li class="scroll-to-section"><a href="contact">Contact</a></li>

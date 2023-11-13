@@ -13,7 +13,7 @@
             rel="stylesheet"
         />
 
-        <title>Hexashop Ecommerce HTML CSS Template</title>
+        <title>EBook Junction - ECommerce for Your Online Book</title>
 
         <!-- Additional CSS Files -->
         <link
@@ -52,84 +52,47 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
         <!-- ***** Preloader End ***** -->
-
-        <!-- ***** Header Area Start ***** -->
-        <header class="header-area header-sticky">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="main-nav">
-                            <!-- ***** Logo Start ***** -->
-                            <a href="home" class="logo">
-                                <img src="assets/images/Frame-9.png" />
-                            </a>
-                            <!-- ***** Logo End ***** -->
-                            <!-- ***** Menu Start ***** -->
-                            <ul class="nav">
-                                <li class="scroll-to-section">
-                                    <a href="#top" class="active">Home</a>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a href="#men">Men's</a>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a href="#women">Women's</a>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a href="#kids">Kid's</a>
-                                </li>
-                                <li class="submenu">
-                                    <a href="javascript:;">Pages</a>
-                                    <ul>
-                                        <li>
-                                            <a href="about">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="products">Products</a>
-                                        </li>
-                                        <li>
-                                            <a href="single-product"
-                                                >Single Product</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="contact"
-                                                >Contact Us</a
-                                            >
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="submenu">
-                                    <a href="javascript:;">Features</a>
-                                    <ul>
-                                        <li><a href="#">Features Page 1</a></li>
-                                        <li><a href="#">Features Page 2</a></li>
-                                        <li><a href="#">Features Page 3</a></li>
-                                        <li>
-                                            <a
-                                                rel="nofollow"
-                                                href="https://templatemo.com/page/4"
-                                                target="_blank"
-                                                >Template Page 4</a
-                                            >
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a href="#explore">Explore</a>
-                                </li>
-                            </ul>
-                            <a class="menu-trigger">
-                                <span>Menu</span>
-                            </a>
-                            <!-- ***** Menu End ***** -->
-                        </nav>
-                    </div>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="home" class="logo">
+                            <img src="assets/images/lowgo.png" />
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="about">About</a></li>
+                            <li class="submenu"><a href="javascript:;">Categories</a>
+                                <ul>
+                                    <li><a href="fiksi">Fiksi</a></li>
+                                    <li><a href="womens">Non Fiksi</a></li>
+                                    <li><a href="fiksi">Sains dan Teknologi</a></li>
+                                    <li><a href="womens">Kesehatan</a></li>
+                                    <li><a href="kids">Bisnis dan Keuangan</a></li>
+                                    <li><a href="kids">Pendidikan</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="contact">Contact</a></li>
+                            <li class="scroll-to-section"><a href="products">Product</a></li>   
+                            <li class="scroll-to-section"><a href="single">Profile</a></li>  
+                            <li class="scroll-to-section"><a href="#explore">Search</a></li>
+                            <!-- <li><i class="ti ti-search"></i> <a href="#explore"></a> </li> -->
+                        </ul>   
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
                 </div>
             </div>
-        </header>
-        <!-- ***** Header Area End ***** -->
-
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
         <!-- ***** Main Banner Area Start ***** -->
         <div class="main-banner" id="top">
             <div class="container-fluid">
@@ -139,10 +102,7 @@ https://templatemo.com/tm-571-hexashop
                             <div class="thumb">
                                 <div class="inner-content">
                                     <h4>We Are Hexashop</h4>
-                                    <span
-                                        >Awesome, clean &amp; creative HTML5
-                                        Template</span
-                                    >
+                                    <span                                        >Awesome, clean &amp; creative HTML5                                        Template</span                                    >
                                     <div class="main-border-button">
                                         <a href="#">Purchase Now!</a>
                                     </div>
@@ -162,10 +122,7 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Women</h4>
-                                                <span
-                                                    >Best Clothes For
-                                                    Women</span
-                                                >
+                                                <span>Best Clothes For Women</span>
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
@@ -176,17 +133,12 @@ https://templatemo.com/tm-571-hexashop
                                                         adipiscing elit incid.
                                                     </p>
                                                     <div
-                                                        class="main-border-button"
-                                                    >
-                                                        <a href="womens"
-                                                            >Discover More</a
-                                                        >
+                                                        class="main-border-button">
+                                                        <a href="womens">Discover More</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img
-                                                src="assets/images/baner-right-image-01.jpg"
-                                            />
+                                            <img src="assets/images/baner-right-image-01.jpg"/>
                                         </div>
                                     </div>
                                 </div>
@@ -195,9 +147,7 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Men</h4>
-                                                <span
-                                                    >Best Clothes For Men</span
-                                                >
+                                                <span>Best Clothes For Men</span>
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
@@ -207,18 +157,12 @@ https://templatemo.com/tm-571-hexashop
                                                         amet, conservisii ctetur
                                                         adipiscing elit incid.
                                                     </p>
-                                                    <div
-                                                        class="main-border-button"
-                                                    >
-                                                        <a href="mens"
-                                                            >Discover More</a
-                                                        >
+                                                    <div class="main-border-button">
+                                                        <a href="mens">Discover More</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img
-                                                src="assets/images/baner-right-image-02.jpg"
-                                            />
+                                            <img src="assets/images/baner-right-image-02.jpg"/>
                                         </div>
                                     </div>
                                 </div>
@@ -227,9 +171,7 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Kids</h4>
-                                                <span
-                                                    >Best Clothes For Kids</span
-                                                >
+                                                <span>Best Clothes For Kids</span>
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
@@ -239,18 +181,12 @@ https://templatemo.com/tm-571-hexashop
                                                         amet, conservisii ctetur
                                                         adipiscing elit incid.
                                                     </p>
-                                                    <div
-                                                        class="main-border-button"
-                                                    >
-                                                        <a href="kids"
-                                                            >Discover More</a
-                                                        >
+                                                    <div class="main-border-button">
+                                                        <a href="kids">Discover More</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img
-                                                src="assets/images/baner-right-image-03.jpg"
-                                            />
+                                            <img src="assets/images/baner-right-image-03.jpg"/>
                                         </div>
                                     </div>
                                 </div>
@@ -259,10 +195,7 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Accessories</h4>
-                                                <span
-                                                    >Best Trend
-                                                    Accessories</span
-                                                >
+                                                <span>Best Trend Accessories</span>
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
@@ -272,18 +205,12 @@ https://templatemo.com/tm-571-hexashop
                                                         amet, conservisii ctetur
                                                         adipiscing elit incid.
                                                     </p>
-                                                    <div
-                                                        class="main-border-button"
-                                                    >
-                                                        <a href="aksesoris"
-                                                            >Discover More</a
-                                                        >
+                                                    <div class="main-border-button">
+                                                        <a href="aksesoris">Discover More</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img
-                                                src="assets/images/baner-right-image-04.jpg"
-                                            />
+                                            <img src="assets/images/baner-right-image-04.jpg"/>
                                         </div>
                                     </div>
                                 </div>
@@ -1224,17 +1151,11 @@ https://templatemo.com/tm-571-hexashop
                     <div class="col-lg-3">
                         <div class="first-item">
                             <div class="logo">
-                                <img
-                                    src="assets/images/white-logo.png"
-                                    alt="hexashop ecommerce templatemo"
-                                />
+                                <img src="assets/images/lowgo.png" alt="EBookJunction"/>
                             </div>
                             <ul>
                                 <li>
-                                    <a href="#"
-                                        >16501 Collins Ave, Sunny Isles Beach,
-                                        FL 33160, United States</a
-                                    >
+                                    <a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a>
                                 </li>
                                 <li><a href="#">hexashop@company.com</a></li>
                                 <li><a href="#">010-020-0340</a></li>
@@ -1252,7 +1173,7 @@ https://templatemo.com/tm-571-hexashop
                     <div class="col-lg-3">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><a href="#">Homepage</a></li>
+                            <li class="scroll-to-section"><a href="#top" class="active">Homepage</a></li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Help</a></li>
                             <li><a href="#">Contact Us</a></li>
@@ -1274,41 +1195,27 @@ https://templatemo.com/tm-571-hexashop
                                 Reserved.
 
                                 <br />Design:
-                                <a
-                                    href="https://templatemo.com"
+                                <a href="https://templatemo.com"
                                     target="_parent"
-                                    title="free css templates"
-                                    >TemplateMo</a
-                                >
+                                    title="free css templates">TemplateMo</a>
 
                                 <br />Distributed By:
-                                <a
-                                    href="https://themewagon.com"
+                                <a href="https://themewagon.com"
                                     target="_blank"
-                                    title="free & premium responsive templates"
-                                    >ThemeWagon</a
-                                >
+                                    title="free & premium responsive templates">ThemeWagon</a>
                             </p>
                             <ul>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-facebook"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-twitter"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-linkedin"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"
-                                        ><i class="fa fa-behance"></i
-                                    ></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
                                 </li>
                             </ul>
                         </div>
