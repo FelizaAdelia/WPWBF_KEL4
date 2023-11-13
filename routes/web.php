@@ -105,3 +105,7 @@ Route::get('/registrasi', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/kategori/data', function () {
+    return view('kategori.data');
+});
