@@ -52,47 +52,84 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
         <!-- ***** Preloader End ***** -->
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="home" class="logo">
-                            <img src="assets/images/lowgo.png" />
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="about">About</a></li>
-                            <li class="submenu"><a href="javascript:;">Categories</a>
-                                <ul>
-                                    <li><a href="fiksi">Fiksi</a></li>
-                                    <li><a href="womens">Non Fiksi</a></li>
-                                    <li><a href="fiksi">Sains dan Teknologi</a></li>
-                                    <li><a href="womens">Kesehatan</a></li>
-                                    <li><a href="kids">Bisnis dan Keuangan</a></li>
-                                    <li><a href="kids">Pendidikan</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="contact">Contact</a></li>
-                            <li class="scroll-to-section"><a href="products">Product</a></li>   
-                            <li class="scroll-to-section"><a href="single">Profile</a></li>  
-                            <li class="scroll-to-section"><a href="#explore">Search</a></li>
-                            <!-- <li><i class="ti ti-search"></i> <a href="#explore"></a> </li> -->
-                        </ul>   
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
+
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <a href="home" class="logo">
+                                <img src="assets/images/Frame-9.png" />
+                            </a>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li class="scroll-to-section">
+                                    <a href="#top" class="active">Home</a>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <a href="#men">Men's</a>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <a href="#women">Women's</a>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <a href="#kids">Kid's</a>
+                                </li>
+                                <li class="submenu">
+                                    <a href="javascript:;">Pages</a>
+                                    <ul>
+                                        <li>
+                                            <a href="about">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="products">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="single-product"
+                                                >Single Product</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="contact"
+                                                >Contact Us</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu">
+                                    <a href="javascript:;">Features</a>
+                                    <ul>
+                                        <li><a href="#">Features Page 1</a></li>
+                                        <li><a href="#">Features Page 2</a></li>
+                                        <li><a href="#">Features Page 3</a></li>
+                                        <li>
+                                            <a
+                                                rel="nofollow"
+                                                href="https://templatemo.com/page/4"
+                                                target="_blank"
+                                                >Template Page 4</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <a href="#explore">Explore</a>
+                                </li>
+                            </ul>
+                            <a class="menu-trigger">
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+        </header>
+        <!-- ***** Header Area End ***** -->
+
         <!-- ***** Main Banner Area Start ***** -->
         <div class="main-banner" id="top">
             <div class="container-fluid">
@@ -102,9 +139,12 @@ https://templatemo.com/tm-571-hexashop
                             <div class="thumb">
                                 <div class="inner-content">
                                     <h4>We Are Hexashop</h4>
-                                    <span                                        >Awesome, clean &amp; creative HTML5                                        Template</span                                    >
+                                    <span
+                                        >Awesome, clean &amp; creative HTML5
+                                        Template</span
+                                    >
                                     <div class="main-border-button">
-                                        <a href="#">Purchase Now!</a>
+                                        <a href="#">Lihat Buku</a>
                                     </div>
                                 </div>
                                 <img
@@ -122,19 +162,23 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Women</h4>
-                                                <span>Best Clothes For Women</span>
+                                                <span
+                                                    >Best Clothes For
+                                                    Women</span
+                                                >
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
-                                                    <h4>Women</h4>
+                                                    <h4>Non-Fiksi</h4>
                                                     <p>
-                                                        Lorem ipsum dolor sit
-                                                        amet, conservisii ctetur
-                                                        adipiscing elit incid.
+                                                    Temukan pengetahuan baru dalam kategori ini.
                                                     </p>
                                                     <div
-                                                        class="main-border-button">
-                                                        <a href="womens">Discover More</a>
+                                                        class="main-border-button"
+                                                    >
+                                                        <a href="womens"
+                                                            >Discover More</a
+                                                        >
                                                     </div>
                                                 </div>
                                             </div>
@@ -147,18 +191,22 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Men</h4>
-                                                <span>Best Clothes For Men</span>
+                                                <span
+                                                    >Best Clothes For Men</span
+                                                >
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
-                                                    <h4>Men</h4>
+                                                    <h4>Fiksi</h4>
                                                     <p>
-                                                        Lorem ipsum dolor sit
-                                                        amet, conservisii ctetur
-                                                        adipiscing elit incid.
+                                                    Temukan dunia imajinatif dalam novel dan cerita pendek.
                                                     </p>
-                                                    <div class="main-border-button">
-                                                        <a href="mens">Discover More</a>
+                                                    <div
+                                                        class="main-border-button"
+                                                    >
+                                                        <a href="mens"
+                                                            >Discover More</a
+                                                        >
                                                     </div>
                                                 </div>
                                             </div>
@@ -171,18 +219,22 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Kids</h4>
-                                                <span>Best Clothes For Kids</span>
+                                                <span
+                                                    >Best Clothes For Kids</span
+                                                >
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
-                                                    <h4>Kids</h4>
+                                                    <h4>Pendidikan</h4>
                                                     <p>
-                                                        Lorem ipsum dolor sit
-                                                        amet, conservisii ctetur
-                                                        adipiscing elit incid.
+                                                    Pelajari teknik pengajaran terbaik dan temukan cara terbaru untuk mendidik anak-anak.
                                                     </p>
-                                                    <div class="main-border-button">
-                                                        <a href="kids">Discover More</a>
+                                                    <div
+                                                        class="main-border-button"
+                                                    >
+                                                        <a href="kids"
+                                                            >Discover More</a
+                                                        >
                                                     </div>
                                                 </div>
                                             </div>
@@ -195,18 +247,23 @@ https://templatemo.com/tm-571-hexashop
                                         <div class="thumb">
                                             <div class="inner-content">
                                                 <h4>Accessories</h4>
-                                                <span>Best Trend Accessories</span>
+                                                <span
+                                                    >Best Trend
+                                                    Accessories</span
+                                                >
                                             </div>
                                             <div class="hover-content">
                                                 <div class="inner">
-                                                    <h4>Accessories</h4>
+                                                    <h4>Bisnis & Keuangan</h4>
                                                     <p>
-                                                        Lorem ipsum dolor sit
-                                                        amet, conservisii ctetur
-                                                        adipiscing elit incid.
+                                                    Pelajaran berharga untuk sukses dalam dunia bisnis yang kompetitif.
                                                     </p>
-                                                    <div class="main-border-button">
-                                                        <a href="aksesoris">Discover More</a>
+                                                    <div
+                                                        class="main-border-button"
+                                                    >
+                                                        <a href="aksesoris"
+                                                            >Discover More</a
+                                                        >
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,10 +285,9 @@ https://templatemo.com/tm-571-hexashop
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h2>Men's Latest</h2>
+                            <h2>Fiksi Terbaru</h2>
                             <span
-                                >Details to details is what makes Hexashop
-                                different from the other themes.</span
+                                >Temukan dunia imajinatif dalam novel dan cerita pendek.</span
                             >
                         </div>
                     </div>
@@ -444,10 +500,9 @@ https://templatemo.com/tm-571-hexashop
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h2>Women's Latest</h2>
+                            <h2>Non-Fiksi Terbaru</h2>
                             <span
-                                >Details to details is what makes Hexashop
-                                different from the other themes.</span
+                                >Temukan pengetahuan baru dalam kategori ini.</span
                             >
                         </div>
                     </div>
@@ -660,10 +715,9 @@ https://templatemo.com/tm-571-hexashop
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h2>Kid's Latest</h2>
+                            <h2>Pendidikan Terbaru</h2>
                             <span
-                                >Details to details is what makes Hexashop
-                                different from the other themes.</span
+                                >Pelajari teknik pengajaran terbaik dan temukan cara terbaru untuk mendidik anak-anak.</span
                             >
                         </div>
                     </div>
